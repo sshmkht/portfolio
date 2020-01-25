@@ -4,9 +4,18 @@
 	&__icon {
 		margin: 0 10px;
 		color: #4c4f48;
+		&:first-child {
+			margin-left: 0;
+		}
 		&:hover {
 			color: #333230;
 			text-decoration: none;
+		}
+		&_black {
+			color: #000;
+			&:hover {
+				color: #cdd7d9;
+			}
 		}
 	}
 }
