@@ -1,0 +1,40 @@
+.about {
+	min-height: 850px;
+	padding: 40px 0 35px 0;
+	background-color: #343233;
+	&__wrapper {
+		display: flex;
+		margin-top: 80px;
+	}
+	&__avatar {
+		max-height: 588px;
+		margin-right: 30px;
+		border: 5px solid #ced8d9;
+	}
+	&__descr {
+		color: #fff;
+		text-align: justify;
+		font-size: 20px;
+		font-weight: 300;
+		&_mt100 {
+			margin-top: 100px;
+		}
+	}
+	&__icons {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 36px;
+		img {
+			width: 40px;
+			&:nth-child(5) {
+				width: 45px;
+			}
+			&:nth-child(8) {
+				width: 31px;
+			}
+			&:nth-child(9) {
+				width: 47px;
+			}
+		}
+	}
+}
