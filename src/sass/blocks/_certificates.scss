@@ -1,0 +1,14 @@
+.certificates {
+	background-color: #343233;
+	padding: 40px 0;
+	&__img {
+		display: block;
+		margin: 0 auto;
+		margin-top: 35px;
+		width: 500px;
+		transition: 1s;
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}

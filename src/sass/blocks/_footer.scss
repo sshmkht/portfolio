@@ -1,5 +1,14 @@
 .contacts {
-	padding: 5px 0 20px 0;
-	background-color: #343233;
+	padding: 20px 0;
+	background-color: #cdd7d9;
 	text-align: center;
+	&__phone, &__email {
+		display: block;
+		margin-bottom: 10px;
+	}
+	&__copyright {
+		margin-top: 20px;
+		font-size: 15px;
+		font-weight: 300;
+	}
 }
