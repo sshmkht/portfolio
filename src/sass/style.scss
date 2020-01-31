@@ -7,9 +7,12 @@
 	position: relative;
 }
 
+
+@import "base/variables";
 @import "base/animations";
 @import "base/cards";
 @import "blocks/promo";
+@import "blocks/hamburger";
 @import "blocks/socials";
 @import "blocks/menu";
 @import "blocks/about";
@@ -19,3 +22,4 @@
 @import "blocks/certificates";
 @import "blocks/footer";
 @import "blocks/pageup";
+@import "media";

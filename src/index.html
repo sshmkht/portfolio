@@ -15,13 +15,19 @@
 </head>
 <body>
 	<section id="home" class="promo">
+		<div class="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
 		<div class="container">
 			<nav>
 				<ul class="menu">
 					<li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
 					<li class="menu__item"><a class="menu__link" href="#about">About</a></li>
 					<li class="menu__item"><a class="menu__link" href="#portfolio">Portfolio</a></li>
-					<li class="menu__item"><a class="menu__link" href="#">Contact me</a></li>
+					<li class="menu__item"><a class="menu__link" href="#certificates">Certificates</a></li>
+					<li class="menu__item" data-modal="contacts"><a class="menu__link" href="#">Contact me</a></li>
 				</ul>
 			</nav>
 			<h1 class="promo__header">Hello, my name is <br>
@@ -74,16 +80,16 @@
 								<li class="skills__item">CSS preprocessors: SASS/SCSS/Less</li>
 								<li class="skills__item">CSS framework: Bootstrap</li>
 								<li class="skills__item">JS framework: jQuery</li>
+								<li class="skills__item">Automation toolkit: Gulp</li>
 								<li class="skills__item">Graphics editors: Zeplin, Photoshop</li>
 								<li class="skills__item">Responsive design</li>
 								<li class="skills__item">Valid code</li>
-								<li class="skills__item">Automation toolkit: Gulp</li>
 							</ul>
 						</div>
 						<div class="skills__text">
 							<h2 class="skills__header">Soft skills</h2>
 							<ul class="skills__list">
-								<li class="skills__item">English: Upper-Intermediate (B2)</li>
+								<li class="skills__item">English: B2</li>
 								<li class="skills__item">Design knowledge</li>
 								<li class="skills__item">Critical thinking</li>
 								<li class="skills__item">Attention to details</li>
@@ -109,7 +115,7 @@
 	<section id="portfolio" class="portfolio">
 		<div class="container">
 			<h2 class="titles titles_dark">portfolio</h2>
-
+			<img class="portfolio__swipe" src="icons/swipe-helper.gif" alt="swipe">
 			<div class="portfolio__slider">
 				<div>
 					<div class="portfolio__item">
@@ -140,7 +146,7 @@
 							<h3 class="portfolio__subheader">
 								<a class="portfolio__link" href="#">
 									visit website
-								</a>
+								</a>								
 							</h3>
 							<div class="portfolio__descr">
 								Landing page built by Bootstpap grid and SASS preprocessor. Responsive design with hamburger nav. Used Gulp to automate development tasks.
@@ -209,9 +215,10 @@
 
 		</div>
 	</section>
-	<section class="certificates">
+	<section id="certificates" class="certificates">
 		<div class="container">
 			<h2 class="titles">certificates</h2>
+			<div class="certificates__descr">I always strive for new and high-quality knowledge, so I go through various WEB courses</div>
 			<img class="certificates__img" src="img/cert/webdev.jpg" alt="certificate">
 		</div>
 	</section>
@@ -233,6 +240,25 @@
 				</a>
 			</div>
 			<div class="contacts__copyright">created with 💛 sshmkht</div>
+		</div>
+		<div class="contacts__overlay">
+			<div class="contacts__modal" id="contacts">
+				<div class="contacts__close">&times;</div>
+				<h2 class="titles titles_dark titles_small">Get in touch</h2>
+				<a class="contacts__phone" href="mailto:sasha.mukhtarova1@gmail.com">sasha.mukhtarova1@gmail.com</a>
+				<a class="contacts__email" href="tel:79219826656">+7(921)982-66-56</a>
+				<div class="socials">
+					<a href="https://www.facebook.com/profile.php?id=100045479255008" class="socials__icon" target="_blank">
+						<span class="icon-facebook"></span>
+					</a>
+					<a href="https://github.com/sshmkht" class="socials__icon" target="_blank">
+						<span class="icon-github"></span>
+					</a>
+					<a href="https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0-%D0%BC%D1%83%D1%85%D1%82%D0%B0%D1%80%D0%BE%D0%B2%D0%B0-91b475195/" class="socials__icon" target="_blank">
+						<span class="icon-linkedin"></span>
+					</a>
+				</div>
+			</div>
 		</div>
 	</footer>
 

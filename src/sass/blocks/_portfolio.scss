@@ -1,9 +1,16 @@
 .portfolio {
 	padding-top: 40px;
-	background-color: #cdd7d9;
+	background-color: $bg_blue;
 	min-height: 850px;
+	position: relative;
+	&__swipe {
+		display: none;
+	}
 	&__slider {
 		margin-top: 20px;
+	}
+	&__swipe {
+		display: none;
 	}
 	&__item {
 		display: flex;
@@ -37,7 +44,7 @@
 	}
 	&__header {
 		text-align: center;
-		color: #FFA829;
+		color: $yellow;
 		text-shadow: #474747 2px 2px, 2px 2px 2px rgba(255,168,41,0);
 		font-size: 45px;
 		letter-spacing: 1px;
